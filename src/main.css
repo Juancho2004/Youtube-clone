@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+ul{
+    list-style: none;
+}
+
+
+:root{
+    --grey-brand:#e5e5e5;
+
+}
+
+main{
+    display: flex;
+}
+
+aside{
+    width: 20%;
+}
+
+.aside-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 63px;
+}
+
+.aside-div img{
+    width: 90px;
+    margin-right: 60px;
+}
+
+.aside-div span i{
+    font-size: 20px;
+}
+
+.aside-list__1{
+    width: 100%;
+    margin-bottom: 8px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom: 1px solid var(--grey-brand);
+}
+
+.aside-list__1 li{
+    font-size: 1.6rem;
+}
+
+.aside-list__1 li:last-child{
+    margin-bottom: 10px;
+}
+
+.aside-list__1 span{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.aside-list__1 span i{
+    font-size: 20px;
+}
+
+
+.aside-list__2{
+    width: 100%;
+    margin-bottom: 8px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom: 1px solid var(--grey-brand);
+}
+
+.aside-list__2 li{
+    font-size: 1.6rem;
+}
+
+.aside-list__2 li:last-child{
+    margin-bottom: 10px;
+}
+
+.aside-list__2 span{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.aside-list__2 span i{
+    font-size: 20px;
+}
+
+
+.aside-list__3 p{
+    font-size: 2.0rem;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.aside-list__3 img{
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 29px;
+}
+
+.aside-list__3 li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+    
+
+}
+
+.aside-list__3 li p{
+    font-size:1.5rem ;    
+    margin-bottom: 3px;
+}
